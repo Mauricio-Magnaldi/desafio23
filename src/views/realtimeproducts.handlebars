@@ -1,0 +1,53 @@
+<div>
+    <h2>Carga de producto</h2>
+    <form id="form">
+        <label>Title:</label> <input type="text" name="inputTitle" id="inputTitle" required>
+        <label>Description:</label> <input type="text" name="inputDescription" id="inputDescription" required>
+        <label>Code:</label> <input type="text" name="inputCode" id="inputCode" required>
+        <label>Price:</label> <input type="number" name="inputPrice" id="inputPrice" required>
+        <label>Status:</label> <input list="opcionBooleana" name="inputStatus" id="inputStatus" pattern="^(true|false)$" required>
+            <datalist id="opcionBooleana">
+                <option value=true>
+                <option value=false>
+            </datalist>
+        <label>Stock:</label> <input type="number" name="inputStock" id="inputStock" required>
+        <label>Category:</label> <input type="text" name="inputCategory" id="inputCategory" required>
+        <label>Thumbnails</label> <input type="text" name="inputThumbnails" id="inputThumbnails" required>
+        <input type="submit" value="Create">
+    </form>
+</div>
+
+<table id="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Code</th>
+            <th>Price</th>
+            <th>Status</th>
+            <th>Stock</th>
+            <th>Category</th>
+            <th>Thumbnails</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+        {{#each products}}
+        <tr>
+            <td>{{id}}</td>
+            <td>{{title}}</td>
+            <td>{{description}}</td>
+            <td>{{code}}</td>
+            <td>{{price}}</td>
+            <td>{{status}}</td>
+            <td>{{stock}}</td>
+            <td>{{category}}</td>
+            <td>{{thumbnails}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<!-- Respetar el orden de los dos scripts -->
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>

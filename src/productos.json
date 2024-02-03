@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "title": "Amoladora",
+    "description": "Con cable.",
+    "code": "a",
+    "price": 24000,
+    "status": true,
+    "stock": 22,
+    "category": "A",
+    "thumbnails": "Sin foto"
+  },
+  {
+    "id": 2,
+    "title": "Taladro",
+    "description": "Con cable.",
+    "code": "b",
+    "price": 40000,
+    "status": false,
+    "stock": 1,
+    "category": "A",
+    "thumbnails": "Sin foto"
+  },
+  {
+    "id": 3,
+    "title": "Destornillador plano",
+    "description": "Sin cable. A pulmon.",
+    "code": "c",
+    "price": 1400,
+    "status": true,
+    "stock": 4,
+    "category": "B",
+    "thumbnails": "Sin foto"
+  },
+  {
+    "id": 4,
+    "title": "Sierra",
+    "description": "Sin cable. A pulmon.",
+    "code": "d",
+    "price": 3200,
+    "status": false,
+    "stock": 34,
+    "category": "A",
+    "thumbnails": "Sin foto"
+  },
+  {
+    "id": 5,
+    "title": "Escalera de tres peldaños",
+    "description": "Llega a 2 metros.",
+    "code": "e",
+    "price": 10000,
+    "status": true,
+    "stock": 78,
+    "category": "A",
+    "thumbnails": "Sin foto"
+  },
+  {
+    "id": 6,
+    "title": "Pala",
+    "description": "Marca Ghiliardi.",
+    "code": "f",
+    "price": 8732,
+    "status": true,
+    "stock": 21,
+    "category": "B",
+    "thumbnails": "Con foto"
+  },
+  {
+    "id": 7,
+    "title": "Escofina",
+    "description": "Biassoni de excelente calidad.",
+    "code": "g",
+    "price": 1200,
+    "status": false,
+    "stock": 32,
+    "category": "B",
+    "thumbnails": "Sin foto"
+  },
+  {
+    "id": 8,
+    "title": "Pinza de punta",
+    "description": "Biassoni de excelente calidad",
+    "code": "h",
+    "price": 4000,
+    "status": false,
+    "stock": 88,
+    "category": "A",
+    "thumbnails": "Con foto"
+  },
+  {
+    "id": 9,
+    "title": "Balde",
+    "description": "Sin marca.",
+    "code": "i",
+    "price": 2000,
+    "status": true,
+    "stock": 44,
+    "category": "B",
+    "thumbnails": "Sin foto"
+  },
+  {
+    "id": 10,
+    "title": "Soldadora",
+    "description": "Lusqtoff monofasica.",
+    "code": "j",
+    "price": 120000,
+    "status": true,
+    "stock": 34,
+    "category": "A",
+    "thumbnails": "Con foto"
+  },
+  {
+    "id": 11,
+    "title": "Lijadora orbital",
+    "description": "Sin cables.",
+    "code": "LIO",
+    "price": 1350,
+    "status": true,
+    "stock": 56,
+    "category": "Herramienta manual",
+    "thumbnails": ["Una foto", "Otra foto", "Una mas"]
+  }
+]

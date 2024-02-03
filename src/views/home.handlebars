@@ -1,0 +1,11 @@
+<h2>Bienvenido {{first_name}} con el tipo de usuario: {{userType}}</h2>
+{{#if products.length}}
+        <h3>Los productos disponibles son:</h3>
+        <h4>Titulo Descripcion Precio</h4>
+        {{#each products}}
+            <p>{{title}} {{description}} ${{price}}</p>
+        {{/each}}
+    {{else}}
+        <h3>Ningun producto para mostrar por el momento.</h3>
+{{/if}}
+<button onclick="location.href='/api/sessions/logout'">Logout</button>

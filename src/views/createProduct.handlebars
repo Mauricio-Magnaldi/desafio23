@@ -1,0 +1,18 @@
+<h2>Crear Producto</h2>
+<form action="/api/products" method="post">
+<label>Title:</label> <input type="text" name="title" id="title" required>
+<label>Description:</label> <input type="text" name="description" id="description" required>
+<label>Code:</label> <input type="text" name="code" id="code" required>
+<label>Price:</label> <input type="number" name="price" id="price" required>
+<label>Status:</label> <input list="opcionBooleana" name="status" id="status" pattern="^(true|false)$" required>
+    <datalist id="opcionBooleana">
+        <option value=true>
+        <option value=false>
+    </datalist>
+<label>Stock:</label> <input type="number" name="stock" id="stock">
+<label>Category:</label> <input type="text" name="category" id="category" required>
+<label>Thumbnails</label> <input type="text" name="thumbnails" id="thumbnails" required>
+<input type="submit" value="Crear">
+</form>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>-->
